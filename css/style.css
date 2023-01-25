@@ -1,0 +1,70 @@
+@import url('./fonts.css');
+@import url('./header.css');
+@import url('./body.css');
+@import url('./footer.css');
+
+:root {
+  --main-color: #0e345a;
+}
+
+.wrapper {
+    height: 100%;
+    margin: 0 55px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.info {
+    display: block;
+    text-align: center;
+}
+
+.description-title {
+    font-size: 20px;
+    font-family: Futura LT Book;
+    text-decoration: underline;
+    color: var(--main-color);
+    margin: 5px 0px;
+}
+
+.info p {
+    font-size: 18px;
+    font-family: Futura LT Book;
+    color: var(--main-color);
+}
+
+.georgia-bold {
+    font-family: Georgia Bold;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.futura-lt {
+    font-family: Futura LT Book;
+    font-size: 16px;
+}
+
+.futura-regular {
+
+    font-family: Futura LT Regular;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    display: inline-block;
+    font-family: Futura LT Bold;
+    font-size: 32px;
+    color: var(--main-color);
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+h1:hover {
+    font-size: 36px;
+}
+

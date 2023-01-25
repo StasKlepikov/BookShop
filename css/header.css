@@ -1,0 +1,129 @@
+.link {
+    color: var(--main-color);
+    transition: all 0.3s ease-in-out;
+}
+.link:hover {
+    color: #3d94eb;
+}
+
+.header {
+    display: flex;
+    height: 120px;
+    padding: 20px 0;
+}
+
+/* ______Header-logo______*/
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 40%;
+}
+
+.header-logo__container {
+    height: 36px;
+    line-height: 30px;
+    width: 50%;
+    outline: 3px solid var(--main-color);
+    letter-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-logo__container-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Futura LT Bold;
+    font-size: 22px;
+    float: left;
+    height: 100%;
+    width: 35%;
+    background: var(--main-color);
+    color: white;
+
+}
+
+.header-logo__container-right a {
+    color: #ffffff;
+}
+
+.header-logo__container-left a{
+    font-family: Georgia Regular;
+    font-size: 16px;
+    float: right;
+    width: 65%;
+    padding: 4px 0;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-logo__container-left :hover {
+    background: var(--main-color);
+    color: #ffffff;
+}
+
+/* ______Header-menu______*/
+
+.header-menu {
+    display: flex;
+    justify-content:flex-end;
+    font-family: Futura LT Book;
+    color: var(--main-color);
+    font-size: 18px;
+    align-items: center;
+    width: 60%;
+}
+
+.header-menu__nav {
+    display: flex;
+    align-items: flex-end;
+    height: 25px;
+}
+
+.header-menu__nav-item {
+    margin: 0 30px 0 0;
+
+}
+
+.header-menu__nav-item:last-child {
+    margin: 0;
+}
+
+.header-menu__nav-item-logIn {
+    margin-left: 5px;
+} 
+
+.header-menu__log-btn {
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+
+.header-menu__shopping-cart {
+    margin-left: 30px;
+}
+
+.header-menu__shopping-cart:hover span {
+    color: #3d94eb;
+}
+
+.shoping-cart {
+    width: 55px;
+}
+
+.header-menu__counter {
+    font-family: Futura LT Regular;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    color: var(--main-color);
+    transition: all 0.3s ease-in-out;
+}
+
+

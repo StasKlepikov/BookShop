@@ -1,0 +1,47 @@
+
+/* ---------- Futura LT ---------- */
+@font-face {
+  font-family: 'Futura LT Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Regular'), 
+  url('../fonts/FuturaLT.woff') format('woff'),
+  url('../fonts/FuturaLT.ttf') format('ttf');
+}
+    
+
+@font-face {
+  font-family: 'Futura LT Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Book'), 
+  url('../fonts/FuturaLT-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Futura LT Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Futura LT Bold'), 
+  url('../fonts/FuturaLT-Bold.woff') format('woff'); 
+}
+
+/* ---------- Georgia ---------- */
+
+@font-face {
+  font-family: 'Georgia Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia Regular'),
+  url('../fonts/Georgia.woff') format('woff'),
+  url('../fonts/Georgia.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Georgia Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Georgia Bold'),
+  url('../fonts/Georgia-Bold.woff') format('woff'),
+  url('../fonts/Georgia-Bold.ttf') format('ttf');
+}
