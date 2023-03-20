@@ -109,7 +109,7 @@
 .header__btn-shopping-cart {
     height: 60px;
     border-radius: 30%;
-    background: #ffffff;
+    background: #ffffff00;
 }
 
 .shopping-cart {
@@ -133,7 +133,7 @@
     width: 50px;
     height: 50px;
     margin: 0 15px;
-    background: #ffffff;
+    background: #ffffff00;
     z-index: 10;
 }
 
